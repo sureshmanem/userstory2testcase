@@ -1,0 +1,61 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files
+Data/Input/*.csv
+Data/Input/*.xlsx
+Data/Output/*.csv
+Data/RetrievalContext/*.txt
+Data/SavedContexts/Contexts.csv
+Data/SavedContexts/EmbedDataMTC/*
+Data/SavedContexts/EmbedDataMTC_UI/*
+Data/ExternalEmbeddingModel/*
+
+# Keep directory structure
+!Data/Input/.gitkeep
+!Data/Output/.gitkeep
+!Data/RetrievalContext/.gitkeep
+!Data/SavedContexts/EmbedDataMTC/
+!Data/SavedContexts/EmbedDataMTC_UI/
+
+# Streamlit
+.streamlit/
+
+# Key Documents Execluded
+Input/additionalContext.csv
+Input/user_stories.csv
